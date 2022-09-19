@@ -1,0 +1,58 @@
+.green {
+  color: #006400;
+}
+
+
+.lightblue {
+  background-color: #1338BE;
+}
+
+.white {
+  color: #ffffffff;
+}
+
+.darkblue {
+  color: #051094;
+}
+
+
+.yellowhighlighter {
+  background-color: #ffff00;
+}
+
+
+.red {
+  color: #ff0000;
+}
+
+
+.yellow {
+  color: #ffff00;
+}
+
+
+.greenbackground {
+  background-color: #00ff00;
+}
+
+.lightgreen {
+  color: #90EE90;
+}
+
+.red {
+  color:#ff0000;
+}
+
+
+.orange {
+  color: #ffa500;
+}
+
+a:hover {
+ text-decoration:underline; color: red;
+
+
+}
+a {
+  text-decoration: none;
+}
