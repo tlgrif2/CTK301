@@ -1,0 +1,62 @@
+h1 {
+  font-weight: normal;
+  color: orange;
+  font-style: italic;
+}
+
+
+
+.customtext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+
+h2 {
+  font-weight: normal;
+  color:orange;
+  font-style: italic;
+}
+
+
+h3 {
+  font-weight: normal;
+  color: orange;
+  font-style: italic;
+}
+
+
+
+.boxmodel {
+  border: 10px solid #000000;
+  padding: 10px 10px 10px 10px;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+  font-weight: normal;
+  color: orange;
+  font-style: italic;
+}
+
+.rightalign {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+body {
+  background-image:URL(ISU.jpg);
+  background-repeat: no-repeat;
+}
+
+.textjustify {
+  text-align: justiy;
+}
