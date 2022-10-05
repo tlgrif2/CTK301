@@ -1,0 +1,101 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  background-color:black;
+  color: white;
+  grid-column: span 4;
+  padding-left: 5px;
+  font-size: 2.2em;
+
+
+}
+
+body{
+background-image: url(a62.png);
+
+
+}
+
+nav li a:hover{
+  color: darkred;
+}
+
+
+
+main {
+grid-column: span 3;
+
+}
+.image {
+  border: 3px solid black;
+  float:left;
+  padding: 10px;
+}
+nav {
+
+}
+
+#whole {
+  margin: 1em auto;
+  width:960px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: white;
+  border: 3px solid black;
+
+}
+nav a {
+  text-decoration: none;
+  color: white;
+
+}
+  h2{
+    border-bottom: 3px solid black;
+  }
+
+
+
+
+nav li {
+  border: 1px solid black;
+  margin-bottom: 5px;
+  width: 150px;
+  background-color: red;
+}
+
+
+.link {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+
+
+nav ul {
+list-style: none;
+
+}
+
+nav li a {
+  display: block;
+  padding: 10px;
+
+}
+
+
+p {
+  font-family: Georgia, Arial, sans-serif;
+  text-align: center;
+  padding-left: 5px;
+}
+
+
+
+footer {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+  background-color: red;
+  padding: 20px;
+  grid-column: span 4;
+}
