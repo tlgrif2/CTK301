@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Creative Endeavors</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+<link rel="stylesheet" href="https://use.typekit.net/xud2dqf.css">
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<link href="final.css" rel="stylesheet" type="text/css">
+</head>
+
+<h1>Creative Endeavors</h1>
+<body>
+<nav>
+  <ul>
+    <li><a href="index.html">Home |</a></li>
+    <li><a href="CreativeEndeavors.html">Creative Endeavors | </a></li>
+    <li><a href="ContactMe.html">Contact Me |</a></li>
+    <li><a href="Programs.html">Programs I Use</a></li>
+  </ul>
+</nav>
+<main>
+
+  <p class="CEText">Most of the work in my creative portfolio entails video and photoshop compositions. I've been using Adobe Premiere Pro for over three years now and I still thoroughly enjoy utilizing the various tools to make my ideas become a reality. I've been using Adobe Photoshop for over two and a half years and continue to expand my creative horizons and challenge myself with every composition. In the near future I plan to add Blender to my repetoire of programs I'm proficient at to expand my creative horizons.</p>
+<div id="photoshop_wrapper">
+
+<h3>My favorite Adobe Photoshop projects</h3>
+<div id="myCarousel" class="carousel">
+    <div class="carousel__slide"><a href="witcher_sidebar.png" data-fancybox="Gallery" data-caption="The Witcher 3 composition"> <img src="witcher_thumb.png"></a></div>
+    <div class="carousel__slide"><a href="Cyberpunk.jpg" data-fancybox="Gallery" data-caption="Cyberpunk 2077 piece titled: Would you rather live in peace as Mr. Nobody, or go down in a blaze of glory?"><img src="Cyberpunk.jpg"></a></div>
+    <div class="carousel__slide"><a href="bioshock_sidebar.png" data-fancybox="Gallery" data-caption="All three Bioshock games in one collage."><img src="bioshock.jpg"></a></div>
+</div>
+
+</div>
+<div id="premiere_wrapper">
+<h3>My favorite Premiere Pro video projects</h3>
+<video width="610" height="400" controls loop preload=<source src="2077_webdesign.mp4" type="video/mp4"/>
+</video>
+<video width="610" height="400" controls loop preload=<source src="btl_design.mp4" type="video/mp4"/>
+</video>
+<video width="610" height="400" controls loop preload=<source src="doom_design.mp4" type="video/mp4"/>
+</video>
+</div>
+<script>
+  const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+    // Your options go here
+  });
+
+</script>
+
+
+
+</main>
+
+</body>
+
+</html>
